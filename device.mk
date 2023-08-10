@@ -304,7 +304,8 @@ PRODUCT_PACKAGES += \
     SystemUIOverlayX00T \
     TelephonyOverlayX00T \
     TetheringOverlayX00T \
-    WifiOverlayX00T
+    WifiOverlayX00T \
+    FlashOverlay
 
 # Permissions
 PRODUCT_COPY_FILES += \
