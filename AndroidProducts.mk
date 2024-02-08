@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_X00TD.mk
+    $(LOCAL_DIR)/voltage_X00TD.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_X00TD-userdebug
+    voltage_X00TD-userdebug
 
