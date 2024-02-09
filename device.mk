@@ -297,6 +297,7 @@ PRODUCT_PACKAGES += \
     DialerOverlayX00T \
     FrameworksOverlayX00T \
     SettingsProviderOverlayX00T \
+    SettingsOverlayX00T \
     SystemUIOverlayX00T \
     TelephonyOverlayX00T \
     TetheringOverlayX00T \

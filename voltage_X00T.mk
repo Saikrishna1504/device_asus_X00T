@@ -18,6 +18,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 # Inherit some common voltageOS stuff
 $(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
+VOLTAGE_BUILD_TYPE := OFFICIAL
+
 # Inherit from X00T device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
