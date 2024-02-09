@@ -292,16 +292,15 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    CarrierConfigOverlayX00TD \
-    CellBroadcastReceiverOverlayX00TD \
-    DialerOverlayX00TD \
-    FrameworksOverlayX00TD \
-    LineageSDKOverlayX00TD \
-    SettingsProviderOverlayX00TD \
-    SystemUIOverlayX00TD \
-    TelephonyOverlayX00TD \
-    TetheringOverlayX00TD \
-    WifiOverlayX00TD
+    CarrierConfigOverlayX00T \
+    CellBroadcastReceiverOverlayX00T \
+    DialerOverlayX00T \
+    FrameworksOverlayX00T \
+    SettingsProviderOverlayX00T \
+    SystemUIOverlayX00T \
+    TelephonyOverlayX00T \
+    TetheringOverlayX00T \
+    WifiOverlayX00T
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -497,4 +496,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/asus/X00TD/X00TD-vendor.mk)
+$(call inherit-product, vendor/asus/X00T/X00T-vendor.mk)

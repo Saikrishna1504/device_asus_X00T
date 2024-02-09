@@ -1,0 +1,6 @@
+runtime_resource_overlay {
+    name: "SystemUIOverlayX00T",
+    theme: "SystemUIOverlayX00T",
+    sdk_version: "current",
+    vendor: true,
+}

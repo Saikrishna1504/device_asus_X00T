@@ -1,0 +1,6 @@
+runtime_resource_overlay {
+    name: "DialerOverlayX00T",
+    theme: "DialerOverlayX00T",
+    sdk_version: "current",
+    vendor: true,
+}
