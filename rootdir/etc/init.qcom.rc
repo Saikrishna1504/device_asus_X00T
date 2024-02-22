@@ -373,6 +373,7 @@ on property:ro.vendor.iocgrp.config=1
     write /dev/blkio/bg/blkio.weight 100
 
 on property:sys.boot_completed=1
+    setprop vendor.post_boot.parsed 1
     write /dev/kmsg "Boot completed "
     #Enable UFS clock scaling back
     write /sys/bus/platform/devices/1d84000.ufshc/clkscale_enable 1
