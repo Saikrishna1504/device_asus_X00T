@@ -73,13 +73,13 @@ void NFC_check() {
         property_override("ro.hq.support.nfc", "0");
 }
 
-void load_X00TD() {
+void load_X00T() {
 
     string device, fingerprint, name;
 
     device = "ASUS_X00T_2";
     fingerprint = "Android/sdm660_64/sdm660_64:9/PKQ1/16.2017.2009.087-20200826:user/release-keys";
-    name = "WW_X00TD";
+    name = "WW_X00T";
 
     string prop_partitions[] = { "", "odm.", "system.",
 					"system_ext.", "vendor." };
@@ -100,7 +100,7 @@ void load_X00TD() {
 
 void vendor_load_properties() {
     if (access("/system/bin/recovery", F_OK) != 0) {
-        load_X00TD();
+        load_X00T();
     }
     set_avoid_gfxaccel_config();
     NFC_check();

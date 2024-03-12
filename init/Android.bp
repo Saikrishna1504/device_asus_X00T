@@ -15,9 +15,9 @@
 //
 
 cc_library_static {
-    name: "libinit_X00TD",
+    name: "libinit_X00T",
     recovery_available: true,
-    srcs: ["init_X00TD.cpp"],
+    srcs: ["init_X00T.cpp"],
     shared_libs: ["libbase"],
     include_dirs: ["system/core/init"]
 }
